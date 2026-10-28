@@ -1,0 +1,31 @@
+name: Melhoria
+description: Proponha uma nova funcionalidade ou melhoria
+title: "feat: "
+labels: ["tipo: melhoria"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema ou necessidade
+      description: Que problema esta melhoria resolve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+    validations:
+      required: false
+  - type: checkboxes
+    id: adrs
+    attributes:
+      label: ADRs
+      options:
+        - label: Li os ADRs do repositório research e a proposta não contradiz uma decisão aceita (ou explico abaixo por que deveria ser revista).
+          required: true

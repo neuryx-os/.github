@@ -1,0 +1,31 @@
+name: Pesquisa
+description: Proponha uma investigação técnica
+title: ""
+labels: ["tipo: pesquisa"]
+body:
+  - type: input
+    id: pergunta
+    attributes:
+      label: Pergunta
+      description: A pergunta que a pesquisa deve responder.
+    validations:
+      required: true
+  - type: textarea
+    id: importancia
+    attributes:
+      label: Por que importa
+    validations:
+      required: true
+  - type: textarea
+    id: investigar
+    attributes:
+      label: O que investigar
+    validations:
+      required: true
+  - type: textarea
+    id: criterio
+    attributes:
+      label: Critério de conclusão
+      description: Como saberemos que a pesquisa terminou?
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar vulnerabilidade
+    url: https://github.com/neuryx-os/.github/blob/main/SECURITY.md
+    about: Vulnerabilidades devem ser enviadas por e-mail, nunca por issue pública.
+  - name: Decisões de arquitetura (ADRs)
+    url: https://github.com/neuryx-os/research/tree/main/adr
+    about: Consulte os ADRs antes de propor mudanças estruturais.
